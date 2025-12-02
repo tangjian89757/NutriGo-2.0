@@ -53,7 +53,7 @@ const AIOnboarding: React.FC<AIOnboardingProps> = ({ onSubmit, isLoading }) => {
                 Let's Build Your <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-500">Perfect Meal Plan</span>
               </h1>
-              <p className="text-lg text-slate-600 leading-relaxed font-medium">
+              <p className="text-sm md:text-base text-slate-600 leading-relaxed font-normal tracking-wide text-balance">
                 Tell us a bit about yourself. Our AI nutritionist will analyze your profile to calculate your exact macro needs and curate affordable, local meal options.
               </p>
             </div>
