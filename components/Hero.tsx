@@ -51,8 +51,8 @@ const Hero: React.FC<HeroProps> = ({ onStart }) => {
                 </span>
                 </h1>
                 
-                {/* Optimized Text Block: Hidden on Mobile, Justified on Desktop with Equal Lines */}
-                <p className="hidden md:block text-base text-slate-600 mb-8 font-normal max-w-[580px] text-justify [text-align-last:justify] leading-relaxed tracking-wide">
+                {/* Optimized Text Block: Hidden on Mobile, Left Aligned on Desktop */}
+                <p className="hidden md:block text-base text-slate-600 mb-8 font-normal max-w-[580px] text-left leading-relaxed tracking-wide">
                   NutriGo combines AI-powered meal planning with direct delivery. Designed for Hong Kong's students and professionals who want to eat healthy without the hassle.
                 </p>
                 
